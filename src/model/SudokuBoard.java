@@ -1,3 +1,5 @@
+package model;
+
 public class SudokuBoard {
     private final int[][] grid;
 
