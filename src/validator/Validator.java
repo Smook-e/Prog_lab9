@@ -1,4 +1,4 @@
-package Validator;
+package validator;
 
 import model.SudokuBoard;
 import task.ValidationResult;
