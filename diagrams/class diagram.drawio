@@ -105,6 +105,52 @@
         <mxCell id="d6MzLpel7NkVO_EM7LPH-32" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="40" x="570" y="510" as="geometry" />
         </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-33" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="task.ValidationTask" vertex="1">
+          <mxGeometry height="300" width="160" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-34" parent="d6MzLpel7NkVO_EM7LPH-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li data-end=&quot;5239&quot; data-start=&quot;5215&quot;&gt;&lt;p data-end=&quot;5239&quot; data-start=&quot;5217&quot;&gt;&lt;code data-end=&quot;5239&quot; data-start=&quot;5217&quot;&gt;- board: SudokuBoard&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5258&quot; data-start=&quot;5240&quot;&gt;&lt;p data-end=&quot;5258&quot; data-start=&quot;5242&quot;&gt;&lt;code data-end=&quot;5258&quot; data-start=&quot;5242&quot;&gt;- type: String&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5275&quot; data-start=&quot;5259&quot;&gt;&lt;p data-end=&quot;5275&quot; data-start=&quot;5261&quot;&gt;&lt;code data-end=&quot;5275&quot; data-start=&quot;5261&quot;&gt;- index: int&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5275&quot; data-start=&quot;5259&quot;&gt;&lt;p data-end=&quot;5275&quot; data-start=&quot;5261&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- result: ValidationResult&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="124" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-35" parent="d6MzLpel7NkVO_EM7LPH-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-36" parent="d6MzLpel7NkVO_EM7LPH-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li data-end=&quot;5373&quot; data-start=&quot;5307&quot;&gt;&lt;p data-end=&quot;5373&quot; data-start=&quot;5309&quot;&gt;&lt;code data-end=&quot;5373&quot; data-start=&quot;5309&quot;&gt;+&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ValidationTask(board: SudokuBoard, type: String, index: int)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5391&quot; data-start=&quot;5374&quot;&gt;&lt;p data-end=&quot;5391&quot; data-start=&quot;5376&quot;&gt;&lt;code data-end=&quot;5391&quot; data-start=&quot;5376&quot;&gt;+ run(): void&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5427&quot; data-start=&quot;5392&quot;&gt;&lt;p data-end=&quot;5427&quot; data-start=&quot;5394&quot;&gt;&lt;code data-end=&quot;5427&quot; data-start=&quot;5394&quot;&gt;+ getResult(): ValidationResult&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="142" width="160" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-37" parent="d6MzLpel7NkVO_EM7LPH-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li data-end=&quot;5373&quot; data-start=&quot;5307&quot;&gt;&lt;p data-end=&quot;5373&quot; data-start=&quot;5309&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry width="160" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-38" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="task.ValidationResult" vertex="1">
+          <mxGeometry height="220" width="160" x="50" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-39" parent="d6MzLpel7NkVO_EM7LPH-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li data-end=&quot;5472&quot; data-start=&quot;5450&quot;&gt;&lt;p data-end=&quot;5472&quot; data-start=&quot;5452&quot;&gt;&lt;code data-end=&quot;5472&quot; data-start=&quot;5452&quot;&gt;+ isValid: boolean&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5499&quot; data-start=&quot;5473&quot;&gt;&lt;p data-end=&quot;5499&quot; data-start=&quot;5475&quot;&gt;&lt;code data-end=&quot;5499&quot; data-start=&quot;5475&quot;&gt;+ errors: List&amp;lt;String&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-40" parent="d6MzLpel7NkVO_EM7LPH-38" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-41" parent="d6MzLpel7NkVO_EM7LPH-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;li data-end=&quot;5531&quot; data-start=&quot;5500&quot;&gt;&lt;p data-end=&quot;5531&quot; data-start=&quot;5502&quot;&gt;&lt;code data-end=&quot;5531&quot; data-start=&quot;5502&quot;&gt;+ addError(e: String): void&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-end=&quot;5574&quot; data-start=&quot;5532&quot;&gt;&lt;p data-end=&quot;5574&quot; data-start=&quot;5534&quot;&gt;&lt;code data-end=&quot;5574&quot; data-start=&quot;5534&quot;&gt;+ merge(other: ValidationResult): void&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="112" width="160" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-42" edge="1" parent="d6MzLpel7NkVO_EM7LPH-38" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;elbow=vertical;entryX=1.004;entryY=0.903;entryDx=0;entryDy=0;entryPerimeter=0;" target="d6MzLpel7NkVO_EM7LPH-39" value="merge">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="160" y="199" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-43" edge="1" parent="1" source="d6MzLpel7NkVO_EM7LPH-38" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d6MzLpel7NkVO_EM7LPH-37" value="">
+          <mxGeometry relative="1" x="1" y="-347" as="geometry">
+            <mxPoint x="4" y="-485" as="offset" />
+            <mxPoint x="60" y="370" as="sourcePoint" />
+            <mxPoint x="220" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-44" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="40" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d6MzLpel7NkVO_EM7LPH-45" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="40" x="140" y="340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
